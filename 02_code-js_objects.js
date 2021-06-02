@@ -2,6 +2,15 @@
  * Code along objects
  */
 
+const skyscraper = {
+  firstFloor: { office1: "Marco", office2: "Fede" },
+  secondFloor: { kitchen: "IronHack", spa: "IronSpa" },
+  owners: ["Raul", "Victor", "Miki"],
+};
+
+console.log(skyscraper.owners[1], skyscraper.secondFloor.spa);
+
+/* 
 const order1 = {
   beverage: "cappucino",
   price: 10,
@@ -21,6 +30,7 @@ const property = "beverage";
 order1[property]; // This would not work: order1.property
 
 console.log(order1[property], order2.extraFoam, order1.price);
+ */
 
 /*
 const order1 = {
