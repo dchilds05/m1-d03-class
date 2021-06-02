@@ -2,7 +2,26 @@
  * Solution of basic methods exercise
  */
 
-// checkPrime returns true/false
+const unsortedNumbers = [100, 1974, 56, 0, -1, 25, 7, 9, 15, 10];
+const words = [
+  "Hello",
+  "Goodbye",
+  "AA",
+  "First",
+  "A",
+  "a",
+  "Second",
+  "b",
+  "Third",
+];
+
+console.log("unsorted", unsortedNumbers);
+
+unsortedNumbers.sort(function (a, b) {
+  return a - b;
+});
+
+console.log("sorted", unsortedNumbers);
 
 let numbersPrimes = [25, 7, 9, 15, 10];
 
@@ -26,7 +45,7 @@ function checkPalindrome(string) {
   return result;
 }
 
-console.log(checkPalindrome("anna"));
+//console.log(checkPalindrome("anna"));
 
 const arrayOfNumbers = [1, 2, 3, 4, 5, 6];
 
@@ -38,4 +57,4 @@ function sumArray(arrayOfNumbers) {
   return sum;
 }
 
-console.log(sumArray(arrayOfNumbers));
+//console.log(sumArray(arrayOfNumbers));
