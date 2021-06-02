@@ -2,6 +2,18 @@
  * Code along objects
  */
 
+// Creating Objects
+
+const startingObject = { start: true }; // Starting reference
+
+const myNewObject = new Object(startingObject); // Crating from Prototype
+
+const myEmptyObject = {};
+
+console.log(myNewObject, myEmptyObject);
+
+/* 
+// Accessing levels below
 const skyscraper = {
   firstFloor: { office1: "Marco", office2: "Fede" },
   secondFloor: { kitchen: "IronHack", spa: "IronSpa" },
@@ -9,7 +21,9 @@ const skyscraper = {
 };
 
 console.log(skyscraper.owners[1], skyscraper.secondFloor.spa);
+ */
 
+// Indirect acces with bracket notation
 /* 
 const order1 = {
   beverage: "cappucino",
@@ -32,6 +46,7 @@ order1[property]; // This would not work: order1.property
 console.log(order1[property], order2.extraFoam, order1.price);
  */
 
+// A non-existing property returns undefined
 /*
 const order1 = {
   beverage: "cappucino",
@@ -50,6 +65,7 @@ const order2 = {
 console.log(order2.alcohol, order2.extraFoam, order1.price); // A non-existing property returns undefined
  */
 /*
+
 // Objects as a protection for naming
 const order1 = {
   beverage: "cappucino",
