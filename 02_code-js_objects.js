@@ -20,7 +20,7 @@ const property = "beverage";
 
 order1[property]; // This would not work: order1.property
 
-console.log(order2.alcohol, order2.extraFoam, order1.price);
+console.log(order1[property], order2.extraFoam, order1.price);
 
 /*
 const order1 = {
