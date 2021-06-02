@@ -1,7 +1,7 @@
 /**
  * Solution of basic methods exercise
  */
-
+/*
 // checkPrime returns true/false
 
 let numbersPrimes = [25, 7, 9, 15, 10];
@@ -42,7 +42,7 @@ console.log(sumArray(arrayOfNumbers));
 
 
 
-
+*/
 //HUNGRY FOR MORE
 
 //Digit Sum
@@ -56,14 +56,14 @@ let sumDigits = function(num){
   return sum;
 }
 
-sumDigits(42);
+
 
 //Pythagoras
 let calculateSide = function(sideA, sideB){
   sideC = Math.hypot(sideA, sideB);
   return sideC;
 }
-calculateSide(8,6);
+
 
 
 //Triangles
@@ -84,3 +84,16 @@ let reverseTri = function(num){
 }
 
 //"Second" Numbers
+let sampleArr = [4,2,6,9,5]
+
+let secondNumbers = function(arr){
+  newArr = arr;
+  newArr.sort(function(a, b){
+    return a - b;
+  });
+  console.log(`second highest: ${arr[arr.length - 2]}`);
+  console.log(`second lowest: ${arr[1]}`);
+}
+
+
+//Unique String
