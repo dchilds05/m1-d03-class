@@ -26,7 +26,7 @@ function checkPalindrome(string) {
   return result;
 }
 
-console.log(checkPalindrome("anna"));
+//console.log(checkPalindrome("anna"));
 
 const arrayOfNumbers = [1, 2, 3, 4, 5, 6];
 
