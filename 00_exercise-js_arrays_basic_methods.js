@@ -2,6 +2,16 @@
  * Solution of basic methods exercise
  */
 
+// checkPrime returns true/false
+
+let numbersPrimes = [25, 7, 9, 15, 10];
+
+numbersPrimes.forEach(function (value) {
+  console.log(checkPrime(value));
+});
+
+// for (number of numbersPrimes) console.log(checkPrime(number));
+
 function checkPrime(number) {
   if (number === 0 || number === 1) return false;
 
@@ -10,8 +20,6 @@ function checkPrime(number) {
   }
   return true;
 }
-
-let numbersPrimes = [25, 7, 9, 15, 10];
 
 function checkPalindrome(string) {
   const result = string.split("").reverse().join("") === string;
