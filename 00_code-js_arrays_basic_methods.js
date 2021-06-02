@@ -2,16 +2,30 @@
  * Code along Array split() join() indexOf() includes()
  */
 
-let result;
+const words = [
+  "Hello",
+  "Goodbye",
+  "AA",
+  "First",
+  "A",
+  "a",
+  "Second",
+  "b",
+  "Third",
+];
 
-const someWords = ["cappucino", "caffé", "te", "aranciata", "23", false];
+console.log("unsorted", unsortedNumbers);
 
-result = someWords.includes(23);
-/*
-const someWords = ["cappucino", "caffé", "te", "aranciata", 23, false];
-const someString = "cappucino;caffé;te;aranciata;23;false";
+unsortedNumbers.sort(function (a, b) {
+  return a - b;
+});
+0;
+console.log("sorted", unsortedNumbers);
 
-result = someWords.join();
-result = someString.split();
-*/
-console.log(result);
+let numbersPrimes = [25, 7, 9, 15, 10];
+
+numbersPrimes.forEach(function (value) {
+  console.log(checkPrime(value));
+});
+
+// for (number of numbersPrimes) console.log(checkPrime(number));
