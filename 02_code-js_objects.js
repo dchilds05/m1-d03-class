@@ -16,8 +16,29 @@ const order2 = {
   extraFoam: false,
 };
 
-console.log(order2.alcohol, order2.extraFoam, order1.price); // A non-existing property returns undefined
+const property = "beverage";
 
+order1[property]; // This would not work: order1.property
+
+console.log(order2.alcohol, order2.extraFoam, order1.price);
+
+/*
+const order1 = {
+  beverage: "cappucino",
+  price: 10,
+  sugar: false,
+  extraFoam: true,
+};
+
+const order2 = {
+  beverage: "cappucino",
+  price: 10,
+  sugar: false,
+  extraFoam: false,
+};
+
+console.log(order2.alcohol, order2.extraFoam, order1.price); // A non-existing property returns undefined
+ */
 /*
 // Objects as a protection for naming
 const order1 = {
