@@ -39,3 +39,48 @@ function sumArray(arrayOfNumbers) {
 }
 
 console.log(sumArray(arrayOfNumbers));
+
+
+
+
+//HUNGRY FOR MORE
+
+//Digit Sum
+let sumDigits = function(num){
+  let arr = Array.from(String(num), Number);
+  let sum = 0;
+  arr.forEach(function(value){
+      sum += value;
+  })
+
+  return sum;
+}
+
+sumDigits(42);
+
+//Pythagoras
+let calculateSide = function(sideA, sideB){
+  sideC = Math.hypot(sideA, sideB);
+  return sideC;
+}
+calculateSide(8,6);
+
+
+//Triangles
+let tri = function(num){
+  for (let i = "#"; i.length < num; i += "#"){
+      return i;
+  }
+}
+
+let reverseTri = function(num){
+  let newString = "";
+  for (let i = 0; newString.length < num; i ++){
+      newString += "#";
+  }
+  for (let x = newString; x.length > 0; x = x.slice(0, x.length - 1)){
+      return(x);
+  }
+}
+
+//"Second" Numbers
