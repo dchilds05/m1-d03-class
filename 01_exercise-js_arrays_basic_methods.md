@@ -97,7 +97,7 @@ Want to upgrade your mini rock paper scissors game? Consider the following!
 1. Try to make [rock, paper, scissors, lizard, spock](http://bigbangtheory.wikia.com/wiki/Rock_Paper_Scissors_Lizard_Spock)
 1. Instead of hardcoding the user input, let the user actually enter a choice in node by using [process.argv](https://nodejs.org/docs/latest/api/process.html#process_process_argv)
 
-&#x1F534; **Commit your work!**
+**Commit your work!**
 Your commit message should read something like:
 "rock paper scissors completed"
 
@@ -133,7 +133,7 @@ console.log(calculateSide(8, 6));
 => 10
 ```
 
-&#x1F534; **Commit your work!**
+**Commit your work!**
 Your commit message should read something like:
 "hfm pythagoras completed"
 
@@ -169,7 +169,7 @@ Write a loop that console logs an **upside down right isosceles triangle** made 
 ```
 
 **Commit your work!**
-Your commit message should read something like: <br>
+Your commit message should read something like:
 "hfm triangles completed"
 
 </details>
@@ -216,7 +216,7 @@ console.log(insertDash(454793));
 > => 4547-9-3
 
 **Commit your work!**
-Your commit message should read something like: <br>
+Your commit message should read something like:
 "hfm insert dash completed"
 
 </details>
